@@ -1,0 +1,7 @@
+/us/ https://www2.termatrac.com/us/:splat 200
+/us/* https://www2.termatrac.com/us/:splat 200
+/store  /us/store  302  Country=us
+/store  /au/store  302  Country=au
+/store  /request-a-quote  302
+/ https://www1.termatrac.com/ 200
+/* https://www1.termatrac.com/:splat 200
