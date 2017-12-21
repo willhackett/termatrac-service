@@ -2,8 +2,8 @@
 /us/* https://www2.termatrac.com/us/:splat 302
 /store  https://www1.termatrac.com/us/store  302  Country=us
 /store  https://www2.termatrac.com/au/store  302  Country=au
-/store/*  https://www1.termatrac.com/us/store/:splat  302  Country=us
-/store/*  https://www2.termatrac.com/au/store/:splat  302  Country=au
+/store/*  https://www2.termatrac.com/us/store/:splat  302  Country=us
+/store/*  https://www1.termatrac.com/au/store/:splat  302  Country=au
 /store  /request-a-quote  302
 / https://www1.termatrac.com/ 200
 /* https://www1.termatrac.com/:splat 200
